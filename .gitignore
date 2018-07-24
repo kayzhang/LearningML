@@ -102,3 +102,28 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# 忽略数据文件
+CIFAR-10-CNN/data/
+CIFAR-10_two_layer_nn/data/
+tensorflow/user_dataset/my_data/
+*.tfrecords
+*.h5
+
+# 忽略 tensorboard 文件
+logs/
+
+# 忽略 .tfrecords
+*.tfrecords
+
+# 忽略自动从网络下载的数据集压缩包
+*.gz
+
+# 忽略 Flicker8k 数据及中间文件
+Flickr8k_Dataset/
+Flickr8k_text/
+*.json
+*.p
+flickr8k_train_dataset.txt
+flickr8k_val_dataset.txt
+flickr8k_test_dataset.txt
